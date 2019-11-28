@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f047d175-4426-4ccf-80e4-5d840f0093f9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>parse</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1UAXmUCwi5hqTHBdZjsni18EGdT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550365466581" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="ScalaTest.MovieSpec">
+    <configuration name="FunctionSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="FunctionalComposition" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="edu.neu.coe.csye7200.asstfc.FunctionSpec" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionSpec.map2 should match Success(1234) for parse &quot;12&quot; to int and parse &quot;34&quot; to int,with (a:Int,b:Int) =&gt; a.toString()+b.toString()" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="FunctionalComposition" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Test name" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="edu.neu.coe.csye7200.asstfc.FunctionSpec" />
+      <option name="testName" value="map2 should match Success(1234) for parse &quot;12&quot; to int and parse &quot;34&quot; to int,with (a:Int,b:Int) =&gt; a.toString()+b.toString()" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="FunctionalComposition" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="edu.neu.coe.csye7200.asstfc.MovieSpec" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieSpec.Name should work for String&#10;Name should work for Name&#10;Principal should work for List[String]&#10;Rating should work for String, Int&#10;Rating should work for PG-13&#10;Rating should work for R&#10;Rating should work for PG-0-&#10;Rating should work for PG-XX&#10;Format should work for Boolean, String, Double, Int&#10;Format should work for List[String]&#10;Production should work for String, Int&#10;Production should work for List[String]&#10;Production should define isKiwi properly&#10;Reviews should work for List[String]&#10;Movie.getMoviesFromCountry should work for the sample file&#10;Movie.testSerializationAndDeserialization should work for the sample file" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="FunctionalComposition" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Test name" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="edu.neu.coe.csye7200.asstfc.MovieSpec" />
+      <option name="testName" value="Name should work for String&#10;Name should work for Name&#10;Principal should work for List[String]&#10;Rating should work for String, Int&#10;Rating should work for PG-13&#10;Rating should work for R&#10;Rating should work for PG-0-&#10;Rating should work for PG-XX&#10;Format should work for Boolean, String, Double, Int&#10;Format should work for List[String]&#10;Production should work for String, Int&#10;Production should work for List[String]&#10;Production should define isKiwi properly&#10;Reviews should work for List[String]&#10;Movie.getMoviesFromCountry should work for the sample file&#10;Movie.testSerializationAndDeserialization should work for the sample file" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.MovieSpec" />
+        <item itemvalue="ScalaTest.MovieSpec.Name should work for String&#10;Name should work for Name&#10;Principal should work for List[String]&#10;Rating should work for String, Int&#10;Rating should work for PG-13&#10;Rating should work for R&#10;Rating should work for PG-0-&#10;Rating should work for PG-XX&#10;Format should work for Boolean, String, Double, Int&#10;Format should work for List[String]&#10;Production should work for String, Int&#10;Production should work for List[String]&#10;Production should define isKiwi properly&#10;Reviews should work for List[String]&#10;Movie.getMoviesFromCountry should work for the sample file&#10;Movie.testSerializationAndDeserialization should work for the sample file" />
+        <item itemvalue="ScalaTest.FunctionSpec" />
+        <item itemvalue="ScalaTest.FunctionSpec.map2 should match Success(1234) for parse &quot;12&quot; to int and parse &quot;34&quot; to int,with (a:Int,b:Int) =&gt; a.toString()+b.toString()" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="FunctionalComposition" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="assignment-functional-composition [file:/Users/yiqiangwang/IdeaProjects/CSYE7200/Assignments/Assignment5/assignment-functional-composition/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="FunctionalComposition-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3097102805000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1068079211" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="719916435" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/CSYE7200/Assignments/Assignment2/assignment-lazy" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/.." value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../RPN" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../assignment-helloworld" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../assignment-lazy" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../assignment-movie-database" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../assignment-random-state" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../assignment-spark-wordcount" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spark-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CSYE7200_FinalProject_Team2_Spring2017" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CSYE7200_FinalProject_Team2_Spring2017changed" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Project/CSYE7200_FinalProject_Team2_Spring2017" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../twitter-sentiment/twitter-sentiment-analysis" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../wikipedia" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f047d175-4426-4ccf-80e4-5d840f0093f9" name="Default Changelist" comment="" />
+      <created>1550359131007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550359131007</updated>
+      <workItem from="1550359132401" duration="4892000" />
+      <workItem from="1574800534265" duration="661000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FunctionSpec_map2_should_match_Success(1234)_for_parse__12__to_int_and_parse__34__to_int,with_(a_Int,b_Int)_=__a_toString()+b_toString() - 2019.02.16 at 19h 11m 21s.xml">
+      <configuration name="FunctionSpec.map2 should match Success(1234) for parse &quot;12&quot; to int and parse &quot;34&quot; to int,with (a:Int,b:Int) =&gt; a.toString()+b.toString()" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="FunctionSpec - 2019.02.16 at 19h 11m 44s.xml">
+      <configuration name="FunctionSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="MovieSpec - 2019.02.16 at 19h 12m 04s.xml">
+      <configuration name="MovieSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="MovieSpec - 2019.02.16 at 19h 17m 17s.xml">
+      <configuration name="MovieSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="FunctionSpec - 2019.02.16 at 19h 20m 03s.xml">
+      <configuration name="FunctionSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="FunctionSpec - 2019.02.16 at 19h 22m 41s.xml">
+      <configuration name="FunctionSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="MovieSpec - 2019.02.16 at 19h 24m 54s.xml">
+      <configuration name="MovieSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="MovieSpec - 2019.02.16 at 19h 29m 24s.xml">
+      <configuration name="MovieSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="MovieSpec - 2019.02.16 at 19h 30m 47s.xml">
+      <configuration name="MovieSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

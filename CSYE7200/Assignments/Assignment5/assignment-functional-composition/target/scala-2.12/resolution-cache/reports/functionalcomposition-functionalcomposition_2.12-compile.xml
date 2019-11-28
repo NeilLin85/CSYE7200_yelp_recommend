@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="functionalcomposition"
+		module="functionalcomposition_2.12"
+		revision="1.0"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20191126153620"/>
+	<dependencies>
+		<module organisation="io.spray" name="spray-json_2.12">
+			<revision name="1.3.2" status="release" pubdate="20161102093118" resolver="public" artresolver="public" homepage="https://github.com/spray/spray-json" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2223" time="43" location="/Users/yiqiangwang/.ivy2/cache/io.spray/spray-json_2.12/ivy-1.3.2.xml" searched="true" original-local-location="/Users/yiqiangwang/.ivy2/cache/io.spray/spray-json_2.12/ivy-1.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.pom"/>
+				<caller organisation="functionalcomposition" name="functionalcomposition_2.12" conf="compile" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spray-json_2.12" type="bundle" ext="jar" status="successful" details="" size="277610" time="384" location="/Users/yiqiangwang/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427044006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/yiqiangwang/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="io.spray" name="spray-json_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.3.2"/>
+				<caller organisation="functionalcomposition" name="functionalcomposition_2.12" conf="compile" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5267302" time="0" location="/Users/yiqiangwang/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
