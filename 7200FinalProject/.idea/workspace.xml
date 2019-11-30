@@ -11,6 +11,20 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -49,9 +63,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,20 +81,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RDD">
-    <configuration name="MapReduce" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="business.MapReduce" />
-      <module name="7200FinalProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RDD" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Join.RDD" />
+  <component name="RunManager" selected="Application.OfflineRecommend">
+    <configuration name="BuildBigTable" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MongoDB.BuildBigTable" />
       <module name="7200FinalProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Join.*" />
+          <option name="PATTERN" value="MongoDB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +95,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rating" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rate.Rating" />
+    <configuration name="CountGN" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Gen.CountGN" />
       <module name="7200FinalProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rate.*" />
+          <option name="PATTERN" value="Categories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfflineRecommend" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Recommend.OfflineRecommend" />
+      <module name="7200FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recommend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RDD" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Categories.RDD" />
+      <module name="7200FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Categories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testfunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MongoDB.testfunction" />
+      <module name="7200FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MongoDB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,9 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OfflineRecommend" />
+        <item itemvalue="Application.BuildBigTable" />
+        <item itemvalue="Application.testfunction" />
         <item itemvalue="Application.RDD" />
-        <item itemvalue="Application.Rating" />
-        <item itemvalue="Application.MapReduce" />
+        <item itemvalue="Application.CountGN" />
       </list>
     </recent_temporary>
   </component>
@@ -134,8 +184,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3149567536650" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="4087148996" />
+        <entry key="$PROJECT_DIR$" value="3149915013266" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2351138366" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1134086237" />
       </map>
     </option>
@@ -155,7 +205,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574760063468</updated>
-      <workItem from="1574760069551" duration="18471000" />
+      <workItem from="1574760069551" duration="18879000" />
+      <workItem from="1574907693732" duration="6358000" />
+      <workItem from="1574977467689" duration="103000" />
+      <workItem from="1574977596190" duration="28453000" />
+      <workItem from="1575061203435" duration="36683000" />
+      <workItem from="1575143101094" duration="11353000" />
     </task>
     <servers />
   </component>

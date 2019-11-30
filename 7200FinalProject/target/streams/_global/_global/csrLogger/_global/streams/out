@@ -1,2 +1,4 @@
-[debug] downloaded https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.11/spark-sql_2.11-2.11.pom
-[debug] downloaded https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.11/spark-sql_2.11-2.11.pom.sha1
+[debug] downloaded https://repo1.maven.org/maven2/org/jblas/jblas/1.2.4/jblas-1.2.4.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/jblas/jblas/1.2.4/jblas-1.2.4.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/jblas/jblas/1.2.4/jblas-1.2.4-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/jblas/jblas/1.2.4/jblas-1.2.4-javadoc.jar
