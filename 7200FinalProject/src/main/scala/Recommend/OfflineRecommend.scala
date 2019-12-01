@@ -62,7 +62,7 @@ object OfflineRecommend {
 
 
 //      //train model
-      val(rank,iterations,lambda)=(50,5,0.01)
+      val(rank,iterations,lambda)=(50,5,0.1)
       val trainData = ratingRDD.map(x=>Rating(x._1,x._2,x._3))
       val model = ALS.train(trainData,rank,iterations,lambda)
 ////

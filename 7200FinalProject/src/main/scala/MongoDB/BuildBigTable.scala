@@ -43,8 +43,17 @@ object BuildBigTable {
     val windowSpec = Window.orderBy("user_id")
     val allCol:DataFrame = mergeTable.withColumn("userID",dense_rank().over(windowSpec))
     val windowSpecTwo = Window.orderBy("business_id")
+//    val bigTable  =  allCol.withColumn("businessID",dense_rank().over(windowSpecTwo)).drop("user_id").drop("business_id")
     val bigTable  =  allCol.withColumn("businessID",dense_rank().over(windowSpecTwo)).drop("user_id").drop("business_id")
+      .drop("date")
+      .drop("state")
+      .drop("name")
+      .drop("city")
+      .drop("latitude")
+      .drop("longitude")
+
     storeInMongoDB(bigTable,"bigTable")
+
 //    mergeTable.select("name", rank,
 //      dense_rank().over(windowSpec).as("dense_rank"),
 //      row_number().over(windowSpec).as("row_number")
