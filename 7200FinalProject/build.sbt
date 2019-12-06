@@ -33,6 +33,8 @@ libraryDependencies += "org.apache.hadoop" % "hadoop-common" % "2.6.0"
 // https://mvnrepository.com/artifact/org.mongodb.spark/mongo-spark-connector
 libraryDependencies += "org.mongodb.spark" %% "mongo-spark-connector" % "2.2.6"
 
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
+
 // https://mvnrepository.com/artifact/org.mongodb/casbah-core
 libraryDependencies += "org.mongodb" %% "casbah-core" % "3.1.1"
 // https://mvnrepository.com/artifact/org.jblas/jblas
