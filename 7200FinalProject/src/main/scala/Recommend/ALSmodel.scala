@@ -49,7 +49,6 @@ object ALSmodel {
   }
   def getRMSE(model: MatrixFactorizationModel, value: RDD[Rating]):Double ={
       val userProducts = value.map(x=>(x.user,x.product))//继续笛卡尔空矩阵
-
       val predictRating = model.predict(userProducts)
       //预测和原始值做inner join
       val observed = value.map(x => ((x.user,x.product),x.rating))

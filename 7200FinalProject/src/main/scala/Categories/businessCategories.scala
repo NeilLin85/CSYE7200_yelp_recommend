@@ -7,10 +7,11 @@ import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
 import scala.collection.mutable.Set
 import scala.collection.mutable
 
+
 case class MongoConfig(uri:String,db:String)
 
 
-object RDD {
+object businessCategories {
 
   val business_path = "/Users/yiqiangwang/IdeaProjects/7200FinalProject/source/yelp_academic_dataset_business.json"
   val config = Map(
