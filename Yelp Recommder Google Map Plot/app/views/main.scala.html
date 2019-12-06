@@ -1,0 +1,55 @@
+@*
+* This template is called from the `index` template. This template
+* handles the rendering of the page header and body tags. It takes
+* two arguments, a `String` for the title of the page and an `Html`
+* object to insert into the body of the page.
+*@
+@(title: String)(content: Html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>@title</title>
+    <h3>Yelp Recommender Google Maps - user 1</h3>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVWaf9gdbhAr5yvLVkvIuPaCu2GF0GR5I
+&callback=initMap"
+            type="text/javascript"></script>
+</head>
+<body>
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script type="text/javascript">
+    var locations = [
+      ['Taco Bell', 33.49519, -112.029, 4],
+      ['Sushi Mocorito', 33.53716, -112.133, 5],
+      ['Desert Shores Dentistry', 33.29732, -111.996, 3],
+      ['Nee House Chinese Restaurant', 33.61302, -111.977, 2],
+      ['Vals Getaway DES Cafeteria', 33.44681, -112.097, 1]
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 10,
+      center: new google.maps.LatLng(33.49519, -112.029),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+</body>
+</html>
