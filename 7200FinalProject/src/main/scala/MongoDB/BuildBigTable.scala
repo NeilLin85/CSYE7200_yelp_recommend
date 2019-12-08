@@ -6,6 +6,10 @@ import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
+/*
+  need to change the format of input data (userId, businessId, rating).
+  read data from MongoDB, convert from string to int to fit in ALS model.
+ */
 case class Business( business_id:String,name:String,city:String,state:String,latitude:Double,longitude:Double)
 case class rating(user_id:String,business_id:String,stars:Double,date:String)
 case class MongoConfig(uri:String,db:String)
@@ -54,13 +58,6 @@ object BuildBigTable {
 
     storeInMongoDB(bigTable,"bigTable")
 
-//    mergeTable.select("name", rank,
-//      dense_rank().over(windowSpec).as("dense_rank"),
-//      row_number().over(windowSpec).as("row_number")
-
-//    val changeBusinessID = spark.sql("SELECT *" +
-//      "DENSE_RANK() OVER (PARTITION BY user_id) AS  uid FROM bigTable" ).show(100)
-//    storeInMongoDB(changeBusinessID,"UserBigtable")
     spark.stop()
 
   }

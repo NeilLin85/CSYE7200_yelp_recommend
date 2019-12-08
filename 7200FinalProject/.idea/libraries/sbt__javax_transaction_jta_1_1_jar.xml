@@ -5,7 +5,7 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../yiqiangwang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

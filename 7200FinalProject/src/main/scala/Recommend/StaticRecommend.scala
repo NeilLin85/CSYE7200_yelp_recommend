@@ -15,9 +15,9 @@ case class MongoConfig(uri:String,db:String)
 
 
 object StaticRecommend {
-  val RateMoreMovie = "RateMoreMovies"
+  val RateMoreBusiness = "RateMoreBusiness"
   val RateMoreRecently = "RateMoreRecentlyMovies"
-  val AverageMovie = "AverageMovies"
+  val AverageBusiness = "AverageBusiness"
   val config = Map(
     "spark.core" -> "local[*]",
     "mongo.uri" ->"mongodb://localhost:27017/recommender",
@@ -50,7 +50,7 @@ object StaticRecommend {
     businessDF.createTempView("business")
     //1.history famous
     val rateMoreMovieDF = spark.sql("select business_id,count(business_id) as count from ratings group by business_id ")
-    storeInMongoDB( rateMoreMovieDF, RateMoreMovie)
+    storeInMongoDB( rateMoreMovieDF, RateMoreBusiness)
 //    val simpledate = new SimpleDateFormat("yyyyMM");
 
 
@@ -64,7 +64,6 @@ object StaticRecommend {
   }
 
 
-
   def storeInMongoDB(df:DataFrame,collectionName:String)(implicit mongoConfig: MongoConfig):Unit ={
     df.write
       .option("uri",mongoConfig.uri)
@@ -74,7 +73,6 @@ object StaticRecommend {
       .save()
 
   }
-
 
 
 }

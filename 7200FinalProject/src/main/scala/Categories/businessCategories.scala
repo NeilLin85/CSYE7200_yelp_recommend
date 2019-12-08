@@ -1,15 +1,14 @@
 package Categories
-
-
-
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
 import scala.collection.mutable.Set
 import scala.collection.mutable
 
-
+/*
+  This is for giving the output for top N business
+  deal with business categories and rating score
+ */
 case class MongoConfig(uri:String,db:String)
-
 
 object businessCategories {
 
@@ -57,6 +56,5 @@ object businessCategories {
       .save()
 
   }
-
 
 }

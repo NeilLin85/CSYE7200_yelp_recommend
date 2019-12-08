@@ -1,4 +1,6 @@
-[debug] downloaded https://repo1.maven.org/maven2/org/jblas/jblas/1.2.4/jblas-1.2.4.pom
-[debug] downloaded https://repo1.maven.org/maven2/org/jblas/jblas/1.2.4/jblas-1.2.4.jar
-[debug] downloaded https://repo1.maven.org/maven2/org/jblas/jblas/1.2.4/jblas-1.2.4-sources.jar
-[debug] downloaded https://repo1.maven.org/maven2/org/jblas/jblas/1.2.4/jblas-1.2.4-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.5/scalatest_2.11-3.0.5.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.5/scalactic_2.11-3.0.5.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.5/scalactic_2.11-3.0.5.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.5/scalatest_2.11-3.0.5.jar

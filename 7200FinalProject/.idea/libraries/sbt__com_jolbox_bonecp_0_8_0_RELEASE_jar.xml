@@ -5,9 +5,11 @@
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../yiqiangwang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../yiqiangwang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

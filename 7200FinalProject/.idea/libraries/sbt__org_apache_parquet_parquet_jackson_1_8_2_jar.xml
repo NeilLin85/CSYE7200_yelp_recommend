@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.2/parquet-jackson-1.8.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../yiqiangwang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.2/parquet-jackson-1.8.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

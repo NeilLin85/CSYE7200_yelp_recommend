@@ -5,9 +5,11 @@
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-hive_2.11/2.2.0/spark-hive_2.11-2.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../yiqiangwang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-hive_2.11/2.2.0/spark-hive_2.11-2.2.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-hive_2.11/2.2.0/spark-hive_2.11-2.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../yiqiangwang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-hive_2.11/2.2.0/spark-hive_2.11-2.2.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

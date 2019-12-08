@@ -5,9 +5,11 @@
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../yiqiangwang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../yiqiangwang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

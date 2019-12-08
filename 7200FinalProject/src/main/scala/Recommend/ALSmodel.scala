@@ -1,21 +1,29 @@
 package Recommend
 
-
 import breeze.numerics.sqrt
 import org.apache.spark.SparkConf
 import org.apache.spark.mllib.recommendation.{ALS, MatrixFactorizationModel, Rating}
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
+
+/*
+  read data from MongoDB
+  split into train set and test set
+  find the smallest RMSE
+  set the rank, lambda with optimal RMSE
+ */
 case class BusinessAddUser(userID:Int,businessID:Int,stars:Double)
+
 object ALSmodel {
   val RateMoreBusiness= "RateMoreBusiness"
-  val RateMoreRecently = "RateMoreRecentlyMovies"
-  val AverageMovie = "AverageMovies"
+  val RateMoreRecently = "RateMoreRecentlyBusiness"
+  val AverageBusiness = "AverageBusiness"
   val config = Map(
     "spark.core" -> "local[*]",
     "mongo.uri" ->"mongodb://localhost:27017/recommender",
     "mongo.db" -> "recommender"
   )
+
   def main(args: Array[String]): Unit = {
     implicit  val mongoConfig = MongoConfig(config("mongo.uri"),config("mongo.db"))
     //create spark config
@@ -38,6 +46,8 @@ object ALSmodel {
 
     adjustALSParameter(trainRDD,testingRDD)
   }
+
+
   def adjustALSParameter(trainRDD: RDD[Rating], testingRDD: RDD[Rating]):Unit={
     val result = for(rank <- Array(20,30,50);lambda <-Array(0.001,0.01,0.1))
       yield {
@@ -47,13 +57,15 @@ object ALSmodel {
     }
     print(result.minBy(_._3))
   }
+
+
   def getRMSE(model: MatrixFactorizationModel, value: RDD[Rating]):Double ={
-      val userProducts = value.map(x=>(x.user,x.product))//继续笛卡尔空矩阵
+      val userProducts = value.map(x=>(x.user,x.product)) // continue to cartesian product
       val predictRating = model.predict(userProducts)
-      //预测和原始值做inner join
+      // prediction & original data make a inner join
       val observed = value.map(x => ((x.user,x.product),x.rating))
       val predict = predictRating.map(x=>((x.user,x.product),x.rating))
-     sqrt(  observed.join(predict)//(userid,businessid),(actual,prediction)
+     sqrt(  observed.join(predict)//(userid, businessid),(actual, prediction)
        .map{
          case((uid,bid),(actual,predition)) => val erro = actual - predition
            erro * erro
